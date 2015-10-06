@@ -1,2 +1,2 @@
 # ysfox.github.io
-Blog!
+This is just a Github Page Test!
