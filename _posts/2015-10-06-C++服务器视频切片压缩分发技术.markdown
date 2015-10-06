@@ -1,0 +1,6 @@
+---
+categories: C++
+---
+
+C++ Test！
+
