@@ -1,4 +1,7 @@
 ---
+layout: post
+title:  "UICollectionViewCell的层次结构"
+date:   2015-10-00 15:23:32
 categories: iOS
 ---
 <link rel="stylesheet" href="http://yastatic.net/highlightjs/8.2/styles/xcode.min.css">
