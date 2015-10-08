@@ -1,0 +1,39 @@
+---
+categories: Life
+---
+
+<link rel="stylesheet" href="http://yastatic.net/highlightjs/8.2/styles/xcode.min.css">
+<script src="http://yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+##使用highlightjs让你代码高亮
+![image](http://img-storage.qiniudn.com/15-10-8/24775677.jpg)
+
+### Mou的缺点
+今天要介绍的是如何让在Mod中让你代码亮起来，Mod是罗成主写，但是有两个问题
+
+1. 不支持代码高亮，我们只有通过外置另外一点就是图片
+2. 插入图片必须是网络上的图片,不支持本地上传图片
+
+
+### 问题解决
+##### 1.解决代码高亮问题
+第一个问题我们可以在Mod头部引入highlightjs的外挂js和css布局，当然如果你可以写自己的代码样式结构<br/>
+这里还要注意一个问题，引入的高亮样式并不是highlightjs官网，而是[yandex](https://tech.yandex.ru/jslibs/)官网的插件<br/>
+我们进入到yandex官网，然后找到高亮的部分,就是如下图所示<br/>
+这个就是引入的Xcode的代码高亮，第一行href就是引入的图中Xcode所指向的css布局，第二行src指向的就是图中所说的高亮js<br/>
+所以这里不仅仅可以高亮Xcode代码，它支持很多种语言，我们只要替换第一行的href的css样式就可以了
+
+	<link rel="stylesheet" href="http://yastatic.net/highlightjs/8.2/styles/xcode.min.css">
+	<script src="http://yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+
+![image](http://img-storage.qiniudn.com/15-10-8/25438251.jpg)
+
+##### 2.解决图片问题
+在mac上我们通过快捷键`shift+command+4`去截取图片，截取之后我们可以将图片拖到 [yotuku](http://yotuku.cn)这个网站<br/>
+这个网站可以提供链接给Mou
+
+![image](http://img-storage.qiniudn.com/15-10-8/93408192.jpg)
+
