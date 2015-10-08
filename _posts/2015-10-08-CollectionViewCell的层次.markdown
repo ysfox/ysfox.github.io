@@ -1,15 +1,11 @@
-<link rel="stylesheet" href="http://yandex.st/highlightjs/6.1/styles/default.min.css">
-<script src="http://yandex.st/highlightjs/6.1/highlight.min.js"></script>
-<script>
-hljs.tabReplace = ' ';
-hljs.initHighlightingOnLoad();
-</script>
-
 ---
 categories: iOS
 ---
+<link rel="stylesheet" href="http://yastatic.net/highlightjs/8.2/styles/xcode.min.css">
+<script src="http://yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
-##CollctionViewCell的层次结构
+##如何在Mou中让代码高亮
 ![image](http://ww4.sinaimg.cn/large/74311666jw1ewtmyxc4i0j20nu0dg75h.jpg)
 
 #### 说明
