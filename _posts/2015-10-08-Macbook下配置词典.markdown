@@ -1,0 +1,11 @@
+---
+categories: Life
+---
+
+<link rel="stylesheet" href="http://yastatic.net/highlightjs/8.2/styles/xcode.min.css">
+<script src="http://yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+##配置Macbook自带的词典
+稍后写
+
